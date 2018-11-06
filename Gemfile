@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll'
+gem 'minima', git: 'https://github.com/feualpha/minima.git', ref: 'e6b536b'
