@@ -24,10 +24,10 @@ namespace :post do
     file_name = Jekyll::Utils.slugify("#{date_stamp}-#{title}") + '.md'
     file_path = DIR + file_name
     content = {
-      layout: LAYOUT,
-      title: title,
-      date: time_stamp,
-      redirect_to: [redirect_url]
+      "layout" => LAYOUT,
+      "title" => title,
+      "date" => time_stamp,
+      "redirect_to" => [redirect_url]
     }
     File.open(file_path, 'w') do |file|
       file.puts YAML.dump(content) + "---\n"
