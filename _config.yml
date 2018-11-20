@@ -23,7 +23,7 @@ url: "feualpha.github.io" # the base hostname & protocol for your site, e.g. htt
 author:
   name: feualpha
   email: feualpha@gmail.com
-search_full_content: true
+
 paginate: 10
 paginate_path: /page:num/
 # Build settings
