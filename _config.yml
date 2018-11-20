@@ -14,24 +14,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Feu
-email: feualpha@gmail.com
+locale: id-id
 description: >- # this means to ignore newlines until "baseurl:"
   Mini blog and Some curated content
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "feualpha" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: feualpha
+url: "feualpha.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+author:
+  name: feualpha
+  email: feualpha@gmail.com
+
+paginate: 10
+paginate_path: /page:num/
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: mmistakes/so-simple-theme
 plugins:
   - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-feed
 whitelist:
   - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
